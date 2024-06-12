@@ -1,18 +1,18 @@
 <template>
     <div class="home">
         <MeetingForm />
-        <MeetingList />
+        <!-- <MeetingList /> -->
     </div>
 </template>
 
 <script>
 import MeetingForm from '@/components/MeetingForm.vue'
-import MeetingList from '@/components/MeetingList.vue'
+// import MeetingList from '@/components/MeetingList.vue'
 
 export default {
     components: {
         MeetingForm,
-        MeetingList
+        // MeetingList
     }
 }
 </script>
